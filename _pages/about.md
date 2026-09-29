@@ -2,20 +2,24 @@
 layout: about
 title: about
 permalink: /
-subtitle:
+subtitle: MA Student, Computational Social Science · University of Chicago
 
 profile:
   align: left
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
+    <p>meiyang@uchicago.edu</p>
+    <p>Chicago, IL</p>
 
 news: false # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am an undergraduate student specialized in psychology at the University of Toronto. I'm interested in the computational mechanisms of social cognition and decision-making. Formerly a sociology student, I'm keen on bringing multi-disciplinary insights into the study of human group collaboration, especially collaboration under conflicted interests and hierarchical structures. I'm currently conducting my senior thesis with Dr. Will Cunningham, modeling the emergence of social roles using modified economic games. As a long-time art enthusiast, I've also conducted research in visual aesthetics and categorical decision-making with Dr. Dirk Bernhardt-Walther. As I continue to delve into the intricacies of the human mind, my long-term aim is to help bring unification across various decision-making contexts using an interdisciplinary approach that absorbs insights from distinct fields such as anthropology, cognitive science, economics, and neuroscience.
+I am a first-year MA student in [Computational Social Science](https://macss.uchicago.edu/) at the University of Chicago, where I am supported by the Midway Research and MA Director's Scholarships. My research sits at the intersection of computational modeling, social psychology, and behavioral economics, with a focus on cooperation, decision-making, and human well-being.
 
-Outside of research, I'm an avid movie lover. My all-time favorite directors are Wong Kar-wai, Ang Lee, and Quentin Tarantino. I'm also a proud puppy owner of a Bichon Frise named 发财 (which means "prosperity" in Mandarin). I also enjoy video gaming quite a bit :).
+Before UChicago, I completed an Honours BSc in Psychology at the University of Toronto (GPA 3.88). There I worked with [Dr. Dirk Bernhardt-Walther](https://www.psych.utoronto.ca/people/directories/all-faculty/dirk-bernhardt-walther) on the empirical aesthetics of bridge design—asking what structural features make bridges beautiful—and with [Dr. Felix Cheung](https://www.psych.utoronto.ca/people/directories/all-faculty/felix-cheung) modeling individual well-being trajectories from 84-day experience-sampling data using machine learning. My senior thesis, advised by Dr. Will Cunningham, used multi-agent reinforcement learning to model coordination and power dynamics in hierarchical groups.
+
+Outside of research, I am an avid film lover—my favorite directors are Wong Kar-wai, Ang Lee, and Quentin Tarantino. I am also the proud owner of a Bichon Frise named 发财 (meaning "prosperity" in Mandarin).

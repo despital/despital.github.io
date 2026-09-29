@@ -1,97 +1,75 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: MA, Computational Social Science
+      institution: University of Chicago, Chicago, IL
+      year: 2026–2028
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Midway Research Scholarship
+        - MA Director's Scholarship
+    - title: Honours B.Sc., Psychology
+      institution: University of Toronto, Toronto, ON
+      year: 2019–2024
+      description:
+        - "GPA: 3.88"
+        - "Thesis: Coordination and power dynamics modeled via multi-agent reinforcement learning"
+        - title: Awards
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+            - Dean's List, 2019–2024
+            - University of Toronto Excellence Award, 2023
+            - Vision Sciences Society NEI Travel Grant, 2024
 
-- title: Experience
+- title: Professional Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Technician
+      institution: SocialAI Research Group, University of Toronto
+      year: 2025–2026
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Built face stimulus sets in FaceGen via Python scripting, normalizing race parameters to produce race-neutral faces with distinct group boundaries
+        - Developed and maintained a modular jsPsych/Firebase/Qualtrics experiment pipeline for a two-phase online study on ingroup bias formation
+        - Centralized institutional knowledge across the project lifecycle using a self-developed Notion workspace
+    - title: Lab Manager
+      institution: Population Well-Being Lab, University of Toronto
+      year: 2024–2026
       description:
-        - Description 1.
-        - Description 2.
+        - Scoped and implemented a co-designed project management workflow adopted across 18 active projects
+        - Drove portfolio accountability through weekly structured check-ins; 14 of 18 projects submitted for publication within the sprint cycle
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Research Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Independent Research Student
+      institution: Population Well-Being Lab, University of Toronto (Advisor&#58; Dr. Felix Cheung)
+      year: 2023–now
+      description:
+        - Modeled individual well-being trajectories from 84-day experience-sampling data (105 participants, 8,925 observations) using machine learning tournaments and a 6,560-specification multiverse analysis
+        - Found well-being driven primarily by subjective factors (affect, goal progress, value alignment) and identified three stable integration profiles plus a goal-decoupled subgroup
+    - title: Research Assistant
+      institution: Bernhardt-Walther Lab, University of Toronto (Advisor&#58; Dr. Dirk Bernhardt-Walther)
+      year: 2023–2025
+      description:
+        - Secured a $7,500 research grant for an independently proposed study on bridge aesthetics
+        - Designed and ran three rating experiments (491 stimuli, 254 Prolific participants) using a self-built jsPsych-Firebase-Prolific pipeline
+        - Presented at the Vision Sciences Society annual meeting (2024); co-authored publication in PLOS ONE
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Publications
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - "Stutzman, L. D., Lun, P., <strong>Yang, M.</strong>, Chan, K., & Cheung, F. (2025). Epilogue to the war: Afghanistan reports the lowest well-being in recorded history. <em>Science Advances, 11</em>(22). <a href='https://doi.org/10.1126/sciadv.ads4156'>https://doi.org/10.1126/sciadv.ads4156</a>"
+    - "Chen, H., <strong>Yang, M.</strong>, Son, G., Mack, M. L., & Walther, D. B. (2025). A large positive hysteresis effect for scene categories. <em>Journal of Experimental Psychology: Human Perception and Performance.</em> <a href='https://doi.org/10.1037/xhp0001416'>https://doi.org/10.1037/xhp0001416</a>"
+    - "<strong>Yang, M.</strong>, Damiano, C., Gauvreau, P., & Walther, D. B. (2025). Empirical aesthetics of bridges. <em>PLOS ONE.</em> <a href='https://doi.org/10.1371/journal.pone.0338493'>https://doi.org/10.1371/journal.pone.0338493</a>"
+
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Programming & Analysis
+      items:
+        - Python (NumPy, Pandas)
+        - R
+        - SQL
+    - title: Experiment & Survey Tools
+      items:
+        - jsPsych
+        - Qualtrics
+        - Prolific
